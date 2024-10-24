@@ -1,0 +1,12 @@
+2024-09-25 22:36:14,267 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2024-09-25 22:43:47,131 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-23 23:48:04,992 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-10-24 09:19:33,483 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.12; built: 2024-07-25T21:58:37.668Z; git: cc6f1b74db755fed228b50701ad967aeaa68e83f; jvm 23+37
+2024-10-24 09:19:33,864 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@ba5081f{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@1cde578d{STARTED}}
+2024-10-24 09:19:33,874 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-10-24 09:19:34,044 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@30878c48{HTTP/1.1, (http/1.1)}{127.0.0.1:57600}
+2024-10-24 09:19:34,085 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@6ff7e28a{STARTING}[12.0.12,sto=0] @34449482ms
+2024-10-24 09:19:36,386 [qtp1974852055-193] INFO  o.e.j.e.nested.ContextHandler._help - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2024-10-24 09:19:38,538 [qtp1974852055-193] INFO  o.e.j.e.nested.ContextHandler._help - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2024-10-24 09:31:38,484 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@6ff7e28a{STOPPING}[12.0.12,sto=0]
+2024-10-24 09:31:38,503 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@30878c48{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
