@@ -1,0 +1,14 @@
+3. Passing parameter
+- After the call to swap(jungleDVD, cinderellaDVD), the titles of the two objects remain unchanged because:
+   + When calling swap(jungleDVD, cinderellaDVD), jungleDVD and cinderellaDVD (which are references 
+     to DigitalVideoDisc objects) are passed to the swap method as copies of the references.
+   + Inside the method, the references o1 and o2 are swapped, but this change only applies to the local 
+     copies (o1 and o2), not to the original references (jungleDVD and cinderellaDVD) in the calling method.
+- It changed because:
+   + When the dvd.setTitle(title) line is executed, the title of the jungleDVD object (which dvd references)
+     is updated to the value of cinderellaDVD.getTitle().
+   + The change is applied directly to the actual object in memory because the dvd reference points to
+     the same object as jungleDVD.
+   + When dvd = new DigitalVideoDisc(oldTitle) is executed, it only reassigns the local dvd reference to
+     point to a new object. This does not change the original jungleDVD reference outside the method.
+4. 
