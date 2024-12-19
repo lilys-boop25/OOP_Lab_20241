@@ -1,4 +1,5 @@
-package hust.soict.dsai.aims.exception;
+package hust.soict.cyber.aims.exception;
+
 
 public class LimitExceedException extends Exception {
 
